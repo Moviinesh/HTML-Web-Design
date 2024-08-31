@@ -1,0 +1,44 @@
+*{
+    /* border: 1px dashed blue; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7fffd4;
+    height: 240px;
+    border: 10px solid black;
+}
+header{
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    border: 5px dotted green;
+}
+h1{
+    background-color: black;
+    color: white;
+    height: 90px;
+    border: 1px dashed gray;
+}
+p{
+    background-color: violet;
+    height: 70px;
+    border: 15px solid blue;
+}
+div{
+    background-color: orangered;
+    height: 200px;
+    border: 20px dotted green;
+}
+a{
+    border-radius: 5px;
+    background-color: beige;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 2px;
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+    text-transform: uppercase;
+}
