@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header{
+    padding: 20px;
+}
+
+body header div h1{
+    color: #000063;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content{
+    width: 75%;
+    background-color: #ff9999;
+    padding: 10px;
+}
+
+.sidebar{
+    width: 25%;
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu-item{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
+}
+
+.sidebar-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+#active {
+    border-bottom:2px solid blue ;
+    border-radius: 99999;
+    padding-bottom: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #000063;
+    font-style: oblique;
+    border: 1px solid blue;    
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: aqua;
+    border-bottom: 2px solid red;
+}
+
+a:visited{
+    background-color: red;
+}
+
+a:link{
+    color: red;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+p:nth(2){
+    text-decoration: line-through;
+}
+
+li:nth(3){
+    background-color: green;
+}
+
+li:nth(even):hover{
+    background-color: coral;
+}
