@@ -1,0 +1,52 @@
+*{
+  border: 1px dashed blue;  
+}
+
+div{
+    height: 50px;
+    width:100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: none;
+}
+
+#one{
+    background-color: #ff0000;
+}
+
+#two{
+    background-color: #0000ff;
+}
+
+#three{
+    background-color: #ffff00;
+}
+
+#four{
+    background-color: #008000;
+}
+
+
+.paragraph1{
+    margin: 10px;
+}
+
+.paragraph2{
+    border: 30px solid green;
+}
+
+.paragraph3{
+    padding: 30px
+}
+
+.paragraph4{
+    /* padding-top: 30px;
+    border-right: 30px solid brown;
+    margin-left: 30px; */
+
+    /* padding: 80px 30px; */
+
+    padding: 40px 20px 60px 80px;
+    margin: 60px 80px 40px 20px;
+    text-align: center;
+}
