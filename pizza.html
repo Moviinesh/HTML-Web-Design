@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Program</title>
+</head>
+<body>
+    <h1>JavaScript Pizzaria</h1>
+
+    <div id="orderForm">
+        <label>How many pizzas do you want</label>
+        <input type="number" value="0" min="1" id="numPizzas" />
+        <br /><br />
+        <label>What kind of Pizzas do you want</label>
+        <select id="typePizza">
+        <option style="color: gray">Select Pizza type</option>
+        <option value="cheese">Cheese</option>
+        <option value="pepperoni">Pepperoni</option>
+        <option value="supreme">Supreme</option>
+        </select>
+        <br />
+        <br />
+        <label>Where do you live?</label>
+        <select id="deliveryCity">
+        <option value="Anytown">Anytown</option>
+        <option value="Sacramento">Sacramento</option>
+        <option value="Beverly Hills">Beverly Hills</option>
+        </select>
+        <br />
+        <br />
+        <label>Is it your birthday?</label>
+        <select id="birthday">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        </select>
+        <br />
+        <br />
+        <button type="button" id="placeOrderBtn">Place Order</button>
+        </div>
+        <div id="displayTotal"></div>
+        <br />
+        <script src="pizza.js">
+        </script>
+</body>
+</html>

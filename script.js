@@ -31,7 +31,11 @@ function thingsChange(){
     newthing1 = prompt("Favourite thing 1: ")
     newthing2 = prompt("Favourite thing 2: ")
     newthing3 = prompt("Favourite thing 3:")
-    document.getElementById("thing1").innerHTML = newthing1
-    document.getElementById("thing2").innerHTML = newthing2
-    document.getElementById("thing3").innerHTML = newthing3
+    itemsChange("thing1", newthing1)
+    itemsChange("thing2", newthing2)
+    itemsChange("thing3", newthing3)
+}
+
+function itemsChange(itemId, newItem){
+    document.getElementById(itemId).innerHTML = newItem;
 }
