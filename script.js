@@ -143,5 +143,3 @@ function calculation() {
     secondOperand = null
     secondOperandAlert = false;
 }
-
-
