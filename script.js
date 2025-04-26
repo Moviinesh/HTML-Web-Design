@@ -6,6 +6,6 @@ function generateStory() {
     const adverb1 = document.getElementById('adverb1').value;
     const object1 = document.getElementById('object1').value;
 
-    const story = `One ${adjective1} day, a ${adjective1} ${noun1} tried to do ${verb1} ${adverb1} with a ${object1}. The ${noun1}s watched in shock. Suddenly, the ${object1} ${verb1}ed. “Why ${verb1} today?” someone yelled ${adverb1}.Because I want to shouted the ${noun1}. Then the ${noun1} just smiled, ${adverb1}.`;
+    const story = `One ${adjective1} day, a ${adjective1} ${noun1} tried to ${verb1} ${adverb1} with a ${object1}. The ${noun1}s watched in shock. Suddenly, the ${object1} ${verb1}ed. “Why ${verb1} today?” someone yelled ${adverb1}. The ${noun1} just smiled, ${adverb1}.`;
     document.getElementById('storyOutput').innerText = story;
 }
