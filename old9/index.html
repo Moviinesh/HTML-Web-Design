@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Word Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">Word Game!</h1>
+    <div id="container">
+        <div id="form">
+            <form id="wordForm">
+                <label>Adjective: <input type="text" id="adjective1" value=""
+                        placeholder="Describes a noun"></label><br>
+                <label>Verb: <input type="text" id="verb1" value="" placeholder="Indicates an action"></label><br>
+                <label>Noun: <input type="text" id="noun1" value="" placeholder="Names a thing"></label><br>
+                <label>Adverb: <input type="text" id="adverb1" value="" placeholder="Modifies a verb"></label><br>
+                <label>Object: <input type="text" id="object1" value=""
+                        placeholder="Something that is real"></label><br>
+                <button id="createstrybtn" class="btn" type="button" value="" onclick="generateStory()">Create
+                    Story</button>
+            </form>
+        </div>
+        <div id="storyOutput"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
