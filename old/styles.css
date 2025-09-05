@@ -1,0 +1,82 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.profile-img {
+    border: 2px solid lightgray;
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.main-heading {
+    color: lightslategrey;
+    font-size: 50px;
+}
+
+.section-heading {
+    margin-top: 40px;
+    color: azure;
+}
+
+.description {
+    margin: 0 auto;
+}
+
+.buttonidk {
+    display: inline-block;
+    /* Make anchor behave like a block element */
+    padding: 5px 10px;
+    /* Adjusted padding for smaller buttons */
+    font-size: 1em;
+    /* Font size */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    background-color: rgba(60, 158, 60, 0.719);
+    /* Base color (blue) */
+    color: white;
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline from anchor */
+    cursor: pointer;
+    /* Show pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth transitions */
+    margin: 3px;
+    /* Space between buttons */
+}
+
+.buttonidk2 {
+    display: inline-block;
+    /* Make anchor behave like a block element */
+    padding: 5px 10px;
+    /* Adjusted padding for smaller buttons */
+    font-size: 1em;
+    /* Font size */
+    border: none;
+    /* Remove default border */
+    border-radius: 5px;
+    /* Rounded corners */
+    background-color: rgba(60, 158, 60, 0.719);
+    /* Base color (blue) */
+    color: white;
+    /* Text color */
+    text-decoration: none;
+    /* Remove underline from anchor */
+    cursor: default;
+    /* Show pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth transitions */
+    margin: 3px;
+    /* Space between buttons */
+}

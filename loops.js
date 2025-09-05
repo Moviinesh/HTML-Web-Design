@@ -10,11 +10,8 @@
 
 
 function generate_Number() {
-    var random_number = Math.floor(Math.random() * 600)
-    for (var min = 400; random_number < 400; min--) {
-        random_number++
-    }
-    console.log(Math.floor((random_number + (Math.random() * 199))))
+    var random_number = 400 + Math.floor(Math.random() * 200)
+    console.log(random_number)
 }
 
 generate_Number()
